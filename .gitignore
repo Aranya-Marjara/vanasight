@@ -1,0 +1,33 @@
+# Build artifacts
+*.egg-info/
+build/
+dist/
+__pycache__/
+*.pyc
+
+# Test/output images
+*.jpg
+*.png
+*.jpeg
+*.gif
+
+# Environment
+.env
+.venv
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large model files
+*.pth
+*.pt
+*.pkl
+
+# Temporary files
+*.tmp
+*.log
