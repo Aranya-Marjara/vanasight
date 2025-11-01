@@ -65,27 +65,23 @@ vanasight --input image.jpg --device cpu
 
 > **Educational Focus**
 > 
-> VanaSight is built for educational purposes to understand how computer vision systems work under the hood. It's designed for learning, not for competing with production systems.
+> VanaSight demonstrates a complete computer vision pipeline for learning purposes. It shows how images transform through different CV stages. It was never built to compete
 
-| Stage | Real-World Use Case | Techniques |
-|-------|---------------------|------------|
-| Image Loading | CCTV, Medical scans, Satellite data | OpenCV, Requests |
-| Noise Removal | Surveillance cleanup, Restoration | FastNlMeansDenoising |
-| Contrast Enhancement | Satellite, Document recovery | CLAHE Algorithm |
-| Sharpening | Forensics, OCR | Custom Convolution Filters |
-| AI Classification | Wildlife tracking, Security | ResNet-18 |
-| Object Detection | Inventory, Robotics vision | Canny + Contour filters |
-| AI Art Generator | Marketing, Stylized visuals | PIL Filters + Color Mapping |
+| Stage | What It Actually Does | Technology |
+|-------|----------------------|------------|
+| Image Loading | Loads local files or URLs with fallbacks | OpenCV, Requests |
+| Noise Removal | Reduces image grain and noise | FastNlMeansDenoising |
+| Contrast Enhancement | Improves image contrast locally | CLAHE Algorithm |
+| Sharpening | Enhances edges and details | Convolution Filters |
+| AI Classification | Identifies image content (1000 categories) | ResNet-18 |
+| Object Detection | Finds prominent shapes/edges in image | Canny + Contour analysis |
+| Artistic Filters | Applies style-based image transformations | PIL Filters + Effects |
 
-### Example Use Cases
-
-- **Security**: Enhance CCTV footage, detect objects, classify activities
-- **E-Commerce**: Enhance product photos, detect boundaries, create variants
-- **Medical Education**: Demonstrate image enhancement concepts
-- **Education**: Teach complete computer vision pipeline visually
-- **Creative**: Automatically stylize images for content creation
-
----
+### Actual Use Cases:
+- **Education**: Learn complete CV pipeline from input to output
+- **Prototyping**: Test image enhancement techniques
+- **Demonstrations**: Show how different CV stages work
+- **Experimentation**: Modify and extend pipeline components
 
 ## 🧩 How It Works — Flowchart
 
