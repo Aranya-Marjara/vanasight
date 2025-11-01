@@ -154,9 +154,12 @@ Input Image
 
 > “Where Code Meets the Wilderness.”
 
-A non-profit, open-source collective building ethical AI ecosystems —  
+A **non-profit, open-source organization** building ethical AI ecosystems —  
 balancing the grace of the forest and the wisdom of the wild.
 
 🌐 [https://github.com/Aranya-Marjara](https://github.com/Aranya-Marjara)
+
+---
+
 
 ---
