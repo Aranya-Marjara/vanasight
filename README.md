@@ -150,7 +150,7 @@ Input Image
 - Ideal for demos, CV research prototypes, or AI art workflows
 ---
 
-## 🐾 Aranya-Marjara Collective
+## 🐾 Aranya-Marjara Organization
 
 > “Where Code Meets the Wilderness.”
 
