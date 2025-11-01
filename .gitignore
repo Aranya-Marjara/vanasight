@@ -9,25 +9,17 @@ __pycache__/
 *.jpg
 *.png
 *.jpeg
-*.gif
 
 # Environment
 .env
 .venv
 venv/
-.env/
 
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Large model files
+# Large files
 *.pth
 *.pt
 *.pkl
-
-# Temporary files
-*.tmp
-*.log
