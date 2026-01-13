@@ -19,10 +19,3 @@ vanasight --input image.jpg --output results.jpg
 vanasight --input "https://xyz.photos/800/600" --output output.jpg
 
 ```
-
-A **open-source organization** building ethical AI ecosystems —  
-balancing the grace of the forest and the wisdom of the wild.
-
-🌐 [https://github.com/Aranya-Marjara](https://github.com/Aranya-Marjara)
-
----
